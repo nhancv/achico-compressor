@@ -32,7 +32,7 @@ class UpdateChecker: ObservableObject {
     
     init() {
             self.currentVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0.0"
-            self.githubRepo = "nuance-dev/Achico"
+            self.githubRepo = "nhancv/achico-compressor"
             setupTimer()
             updateStatusIcon()
         }
